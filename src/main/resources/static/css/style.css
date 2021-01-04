@@ -1,0 +1,119 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cabecalho{
+  width: 100%;
+  height: 10vh;
+  background: #128fa3;
+  z-index: 99999;
+  position: relative;
+}
+
+.cabecalho #name-tool{
+  color: #ffffff;
+  font-size: 27px;
+  padding-top: 15px;
+  padding-left: 32px;
+  font-weight: bold;
+}
+
+.menu {
+  width: 15%;
+  height: 90vh;
+  background: #39484a;
+  z-index: 99999;
+}
+
+.menuprincipal, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuprincipal img{
+  margin-right: 7px;
+  height: 20px;
+}
+
+.menuprincipal a {
+  display: block;
+  background-color: #39484a;
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.menuprincipal a:hover {
+    background-color: #128fa3;
+}
+
+.menuprincipal li:hover .submenu {
+  display: block;
+  max-height: 500px;
+}
+
+.submenu a {
+  background-color: #516669;
+  font-size: 15px;
+}
+
+.submenu a:hover {
+  background-color: #128fa3;
+  font-size: 15px;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  webkit-transition: all 0.5s ease-out;
+}
+
+.conteudo{
+  width: 85%;
+  height: 90vh;
+  float: right;
+  top: 0;
+  margin-top: 10vh;
+  margin-left: 15%;
+  position: absolute;
+
+}
+
+.conteudo #title-conteudo{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.conteudo p{
+  margin-left: 5%;
+}
+
+.conteudo div{
+  margin-top: 5px;
+  margin-left: 1%;
+}
+
+#list-terms{
+
+  font-size: 13px;
+}
+
+.list-action {
+    width: 10%;'
+}
+
+.list-pn {
+
+   width: 5%;'
+}
+
+.list-descrip {
+
+   width: 50%;'
+}
